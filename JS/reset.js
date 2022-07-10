@@ -1,4 +1,3 @@
-
 let getResetButton = document.querySelector("#btn_reset");
 
 getResetButton.addEventListener("click", clearAllDatas);
