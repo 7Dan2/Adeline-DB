@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    
     <title>@deline-DB</title>
 </head>
 <body>
     
 <div class="app">
     <div class="container">
+        <form action="mailto:b.david840@laposte.net" subject="Releves fioul" method="post" enctype="text/plain"></form>
         <table id="datas">
             <thead>
                 <tr>
@@ -23,7 +27,7 @@
                 <tr>
                     <td>C1_30_1</td>
                     <td>
-                        <input type="number" />
+                        <input type="number" step="0.1" />
                     </td>
                     <td>
                         <input type="number" />
@@ -35,7 +39,7 @@
                 <tr>
                     <td>C2_30_2</td>
                     <td>
-                        <input type="number" />
+                        <input type="number" step="0.1"/>
                     </td>
                     <td>
                         <input type="number" />
@@ -47,7 +51,7 @@
                 <tr>
                     <td>C3_20</td>
                     <td>
-                        <input type="number" />
+                        <input type="number" step="0.1"/>
                     </td>
                     <td>
                         <input type="number" />
@@ -83,8 +87,10 @@
             </tbody>
 
         </table>
+    </form>
        <div>
-            <button type="submit">Envoyer</button>
+            <input type="submit" value="Envoyer"></button>
+            <input type="reset" value="Reset">
        </div>
     </div>
 </div>
