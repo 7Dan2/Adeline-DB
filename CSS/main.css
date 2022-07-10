@@ -38,3 +38,10 @@ input:hover
 {
     background-color: red;
 }
+
+@media (max-width: 800px) {
+    .container
+    {
+        flex: 50%;
+    }
+  }

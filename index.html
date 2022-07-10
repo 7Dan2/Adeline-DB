@@ -17,8 +17,9 @@
             <H1>@deline-DB&nbsp;<small>v 0.0.2</small></H1>
         </div>
     </div>
+    <!-- <form action="mailto:b.david840@laposte.net" subject="Releves fioul" method="post" enctype="text/plain"></form> -->
+        
     <div class="container">
-        <form action="mailto:b.david840@laposte.net" subject="Releves fioul" method="post" enctype="text/plain"></form>
         <table id="datas" class="aTable">
             <thead>
                 <tr>
@@ -32,10 +33,10 @@
                 <tr>
                     <td>C1_30_1</td>
                     <td>
-                        <input type="number" step="0.1" />
+                        <input type="number" step="0.1" id="C1_30_1_manual" class="input"/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" id="C1_30_1_pneumatik" class="input"/>
                     </td>
                     <td>
                         <input type="number" disabled/>
@@ -44,10 +45,10 @@
                 <tr>
                     <td>C2_30_2</td>
                     <td>
-                        <input type="number" step="0.1"/>
+                        <input type="number" step="0.1" id="C1_30_2_manual" class="input"/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" id="C1_30_2_pneumatik" class="input"/>
                     </td>
                     <td>
                         <input type="number" disabled/>
@@ -56,25 +57,25 @@
                 <tr>
                     <td>C3_20</td>
                     <td>
-                        <input type="number" step="0.1"/>
+                        <input type="number" step="0.1" id="C3_20_manual" class="input"/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" disabled/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" id="C3_20_electronik" class="input"/>
                     </td>
                 </tr>
                 <tr>
                     <td>C4_60</td>
                     <td>
-                        <input type="number" />
+                        <input type="number" disabled/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" id="C4_60_pneumatik" class="input"/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" id="C4_60_electronik" class="input"/>
                     </td>
                 </tr>
                 <tr>
@@ -83,7 +84,7 @@
                         <input type="number" disabled/>
                     </td>
                     <td>
-                        <input type="number" />
+                        <input type="number" id="C5_V_40_pneumatik" class="input"/>
                     </td>
                     <td>
                         <input type="number" disabled/>
@@ -92,14 +93,19 @@
             </tbody>
 
         </table>
-    </form>
+    
 </div>
+<!-- </form> -->
        <div class="btn_area">
             <input type="submit" value="Envoyer"></button>
-            <input type="reset" value="Reset"></button>
+            <input type="reset" id="btn_reset" value="Reset"></button>
        </div>
     
+<!-- SCRIPTS -->
+<script src="./JS/mailto.js"></script>
+<script src="./JS/reset.js"></script>
+       
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
 
-
-</body>
+    </body>
 </html>
