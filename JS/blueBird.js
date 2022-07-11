@@ -1,0 +1,1 @@
+const getTitle = document.getElementById("app-title");

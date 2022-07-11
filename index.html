@@ -13,8 +13,8 @@
     
 
     <div class="header">
-        <div>
-            <H1>@deline-DB&nbsp;<small>v 0.0.4</small></H1>
+        <div class="title-area">
+            <H1 id="app-title">@deline-DB&nbsp;<small>v 1.0.0</small></H1>
         </div>
     </div>
     <!-- <form action="mailto:b.david840@laposte.net" subject="Releves fioul" method="post" enctype="text/plain"></form> -->
@@ -87,7 +87,7 @@
                         <input type="number" id="C5_V_40_pneumatik" class="input"/>
                     </td>
                     <td>
-                        <input type="number" disabled/>
+                        <input type="text" id="C5_V_40_electronik" pattern="[A_Za-z]" class="input"/>
                     </td>
                 </tr>
             </tbody>
@@ -104,6 +104,8 @@
 <!-- SCRIPTS -->
 <script src="./JS/mailto.js"></script>
 <script src="./JS/reset.js"></script>
+<script src="./JS/checkEmptyFields.js"></script>
+<script src="./JS/blueBird.js"></script>
        
 <noscript>Sorry, your browser does not support JavaScript!</noscript>
 

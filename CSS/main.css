@@ -3,6 +3,28 @@
     box-sizing: border-box;
 }
 
+/* A */
+#app-title::after
+{
+    content: "cliquez moi !";
+    color: blue;
+    font-size: small;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+    transition-delay: 1000ms;
+}
+
+#app-title:hover::after
+{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 /* B */
 .btn_area
 {
@@ -18,6 +40,18 @@
     flex-direction: column
     
 }
+
+/* H */
+.title-area
+{
+    width: 25%;
+}
+
+
+
+
+
+
 
 /* I */
 input
@@ -37,6 +71,13 @@ input:hover
 :disabled:hover
 {
     background-color: red;
+}
+
+:disabled:hover::after
+{
+    content: "coucou";
+    position: relative;
+    top: 19px
 }
 
 @media (max-width: 800px) {
