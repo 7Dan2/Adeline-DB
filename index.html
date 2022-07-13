@@ -15,108 +15,134 @@
     
 <div class="header">
     <div class="title-area">
-        <H1 id="app-title">@deline-DB&nbsp;<small>v 1.2.0</small></H1>
+        <H1 id="app-title">@deline-DB&nbsp;<small>v 1.3.0</small></H1>
     </div>
 </div>
 
+<div class="row">
 
     <div class="fiveButtonsArea" id="fiveButtonsArea">
-        
-        
-            <button id="toC1">C1_30_1</button>
-            <button id="toC2">C2_30_2</button>
-            <button id="toC3">C3_20</button>
-            <button id="toC4">C4_60</button>
-            <button id="toC5">V</button>
-
-       
+        <button id="toC1">C1_30_1</button>
+        <button id="toC2">C2_30_2</button>
+        <button id="toC3">C3_20</button>
+        <button id="toC4">C4_60</button>
+        <button id="toC5">V</button>
     </div>
+    
+</div>
         
-   
-    <div class="row">
+<div class="row">
        
-        <div class="container">
-            <div class="C1_30_1 col-12">
-                <h3>C1_30_1</h3>
-
-                <label for="C1_30_1_manual">Manuel</label>
-                <input type="number" step="0.1" id="C1_30_1_manual" class="input"/>
-
-                <label for="C1_30_1_pneumatik">Pneumatique</label>
-                <input type="number" id="C1_30_1_pneumatik" class="input"/>
-
-                <label for="C1_30_1_electronik">Electronique</label>
-                <input type="number" id="C1_30_1_electronik" disabled/>
-            </div>
-    
-            <div class="C2_30_2 col-12">
-                <h3>C2_30_2</h3>
-
-                <label for="C2_30_2_manual">Manuel</label>
-                <input type="number" step="0.1" id="C2_30_2_manual" class="input"/>
-
-                <label for="C2_30_2_pneumatik">Pneumatique</label>
-                <input type="number" id="C2_30_2_pneumatik" class="input"/>
-
-                <label for="C2_30_2_electronik">Electronique</label>
-                <input type="number" id="C2_30_2_electronik" disabled/>
+    <div class="container">
+        <div class="C1_30_1 col col-6 col-s-6">
+            <h3>C1_30_1</h3>
+            
+            <div>
+            <label for="C1_30_1_manual">Manuel</label>
+            <input type="number" step="0.1" id="C1_30_1_manual" class="input"/>
             </div>
 
-            <div class="C3-20 col-12">
-                <h3>C3_20</h3>
-
-                <label for="C3_20_manual">Manuel</label>
-                <input type="number" step="0.1" id="C3_20_manual" class="input"/>
-
-                <label for="C2_30_pneumatik">Pneumatique</label>
-                <input type="number" id="C3_20_pneumatik" class="input" disabled/>
-
-                <label for="C3_20_electronik">Electronique</label>
-                <input type="number" id="C3_20_electronik" />
+            <div>
+            <label for="C1_30_1_pneumatik">Pneumatique</label>
+            <input type="number" id="C1_30_1_pneumatik" class="input"/>
             </div>
 
-            <div class="C4_60 col-12">
-                <h3>C4_60</h3>
-
-                <label for="C4_60_manual">Manuel</label>
-                <input type="number" step="0.1" id="C1_30_1_manual" class="input" disabled/>
-
-                <label for="C4_60_pneumatik">Pneumatique</label>
-                <input type="number" id="C4_60_pneumatik" class="input"/>
-
-
-                <label for="C4_60_electronik">Electronique</label>
-                <input type="number" id="C4_60_electronik"/>
+            <div>
+            <label for="C1_30_1_electronik">Electronique</label>
+            <input type="number" id="C1_30_1_electronik" disabled/>
             </div>
-
-            <div class="C5_V_40 col-12">
-                <h3>C5_V_40</h3>
-
-                <label for="C5_V_40_manual">Manuel</label>
-                <input type="number" step="0.1" id="C5_V_40_manual" class="input" disabled/>
-
-                <label for="C5_V_40_pneumatik">Pneumatique</label>
-                <input type="number" id="C5_V_40_pneumatik" class="input"/>
-
-                <label for="C5_V_40_electronik">Electronique</label>
-                <input type="text" id="C5_V_40_electronik"/>
-            </div>
-    
         </div>
+    
+        <div class="C2_30_2 col col-6 col-s-6">
+            <h3>C2_30_2</h3>
+             
+            <div>
+            <label for="C2_30_2_manual">Manuel</label>
+            <input type="number" step="0.1" id="C2_30_2_manual" class="input"/>
+            </div>
+
+            <div>    
+            <label for="C2_30_2_pneumatik">Pneumatique</label>
+            <input type="number" id="C2_30_2_pneumatik" class="input"/>
+            </div>
+
+            <div>
+            <label for="C2_30_2_electronik">Electronique</label>
+            <input type="number" id="C2_30_2_electronik" disabled/>
+            </div>
+        </div>
+
+        <div class="C3-20 col col-6 col-s-6">
+            <h3>C3_20</h3>
+
+            <div>
+            <label for="C3_20_manual">Manuel</label>
+            <input type="number" step="0.1" id="C3_20_manual" class="input"/>
+            </div>
+
+            <div>
+            <label for="C3_20_pneumatik">Pneumatique</label>
+            <input type="number" id="C3_20_pneumatik"  disabled/>
+            </div>
+
+            <div>
+            <label for="C3_20_electronik">Electronique</label>
+            <input type="number" id="C3_20_electronik" class="input"/>
+            </div>
+        </div>
+
+        <div class="C4_60 col col-6 col-s-6">
+            <h3>C4_60</h3>
+
+            <div>
+            <label for="C4_60_manual">Manuel</label>
+            <input type="number" step="0.1" id="C1_30_1_manual" class="input" disabled/>
+            </div>
+
+            <div>
+            <label for="C4_60_pneumatik">Pneumatique</label>
+            <input type="number" id="C4_60_pneumatik" class="input"/>
+            </div>  
+
+            <div>
+            <label for="C4_60_electronik">Electronique</label>
+            <input type="number" id="C4_60_electronik"/>
+            </div>
+        </div>
+
+        <div class="C5_V_40 col col-6 col-s-6">
+            <h3>C5_V_40</h3>
+
+            <div>
+            <label for="C5_V_40_manual">Manuel</label>
+            <input type="number" step="0.1" id="C5_V_40_manual" class="input" disabled/>
+            </div>
+
+            <div>
+            <label for="C5_V_40_pneumatik">Pneumatique</label>
+            <input type="number" id="C5_V_40_pneumatik" class="input"/>
+            </div>
+
+            <div>
+            <label for="C5_V_40_electronik">Electronique</label>
+            <input type="text" id="C5_V_40_electronik"/>
+            </div>
+        </div>
+    
+    </div>
         
        
 
       
-    </div>
-
-
-
+</div>
+<div class="row">
+    <div class="btn_area col-12">
+        <input type="submit" id="btn_send" value="Envoyer"></button>
+        <input type="reset" id="btn_reset" value="Reset"></button>
+   </div>
     
-
-       <div class="btn_area">
-            <input type="submit" id="btn_send" value="Envoyer"></button>
-            <input type="reset" id="btn_reset" value="Reset"></button>
-       </div>
+</div>
+   
     
 <!-- SCRIPTS -->
 <script src="./JS/mailto.js"></script>
