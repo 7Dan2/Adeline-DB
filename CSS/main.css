@@ -26,11 +26,32 @@
 }
 
 /* B */
+.boxes
+{
+    display: flex;
+}
 .btn_area
 {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    justify-content: flex-start;
+    margin: 20px 10px;
+}
+
+.btn_area > *
+{
+    margin: 10px;
+}
+
+#btn_send:disabled
+{
+    background-color: lightgray;
+    color: grey;
+}
+
+#btn_send:disabled:hover
+{
+    background-color: red;
+    color: black;
 }
 
 /* C */
@@ -41,13 +62,70 @@
     
 }
 
-/* H */
-.title-area
+.col-3
 {
     width: 25%;
+    border: 1px solid red;
 }
 
+.col-4
+{
+    width: 33%;
+    border: 1px solid blue;
+}
 
+.col-6
+{
+    width: 50%;
+}
+
+.col-12
+{
+    width: 100%;
+    text-align: center;
+}
+
+/* F */
+.fiveButtonsArea
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    
+    height: 100px;
+
+}
+
+.fiveButtonsArea > button
+{
+    height: 2rem;
+    margin: 1px;
+}
+
+.fiveButtonsArea > button:hover
+{
+    background-color: green;
+    color: white;
+}
+
+.raiseButtonsArea
+{
+    border: 2px solid greenyellow;
+    z-index: 2;
+}
+
+/* H */
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.input:hover
+{
+    transform: scale(1.05);
+}
 
 
 
