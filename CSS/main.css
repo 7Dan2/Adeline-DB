@@ -67,23 +67,24 @@
 }
 
 /* F */
-.fiveButtonsArea
+div.fiveButtonsArea
 {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     align-items: center;
+    position: -webkit-sticky;
     position: sticky;
     top: 10px;
     height: 100px;
 }
 
-.fiveButtonsArea > button
+div.fiveButtonsArea > button
 {
     height: 2rem;
     margin: 1px;
 }
 
-.fiveButtonsArea > button:hover
+div.fiveButtonsArea > button:hover
 {
     background-color: green;
     color: white;

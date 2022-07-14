@@ -19,7 +19,8 @@
     </div>
 </div>
 
-<div class="row">
+<!-- Desactive dans cette version -->
+<!-- <div class="row">
 
     <div class="fiveButtonsArea" id="fiveButtonsArea">
         <button id="toC1">C1_30_1</button>
@@ -29,7 +30,7 @@
         <button id="toC5">V</button>
     </div>
     
-</div>
+</div> -->
         
 <div class="row">
        
@@ -44,7 +45,7 @@
 
             <div>
             <label for="C1_30_1_pneumatik">Pneumatique</label>
-            <input type="number" id="C1_30_1_pneumatik" class="input"/>
+            <input type="number" id="C1_30_1_pneumatik" step="0.5" class="input"/>
             </div>
 
             <div>
@@ -63,7 +64,7 @@
 
             <div>    
             <label for="C2_30_2_pneumatik">Pneumatique</label>
-            <input type="number" id="C2_30_2_pneumatik" class="input"/>
+            <input type="number" id="C2_30_2_pneumatik" step="0.5" class="input"/>
             </div>
 
             <div>
@@ -82,7 +83,7 @@
 
             <div>
             <label for="C3_20_pneumatik">Pneumatique</label>
-            <input type="number" id="C3_20_pneumatik"  disabled/>
+            <input type="number" id="C3_20_pneumatik" step="0.5" disabled/>
             </div>
 
             <div>
@@ -101,7 +102,7 @@
 
             <div>
             <label for="C4_60_pneumatik">Pneumatique</label>
-            <input type="number" id="C4_60_pneumatik" class="input"/>
+            <input type="number" id="C4_60_pneumatik" step="0.5" class="input"/>
             </div>  
 
             <div>
@@ -120,22 +121,21 @@
 
             <div>
             <label for="C5_V_40_pneumatik">Pneumatique</label>
-            <input type="number" id="C5_V_40_pneumatik" class="input"/>
+            <input type="number" id="C5_V_40_pneumatik" step="0.5" class="input"/>
             </div>
 
             <div>
             <label for="C5_V_40_electronik">Electronique</label>
-            <input type="text" id="C5_V_40_electronik"/>
+            <input type="text" id="C5_V_40_electronik" class="input"/>
             </div>
         </div>
     
     </div>
         
-       
-
-      
 </div>
+
 <div class="row">
+
     <div class="btn_area col-12">
         <input type="submit" id="btn_send" value="Envoyer"></button>
         <input type="reset" id="btn_reset" value="Reset"></button>
@@ -148,7 +148,7 @@
 <script src="./JS/mailto.js"></script>
 <script src="./JS/reset.js"></script>
 <script src="./JS/checkEmptyFields.js"></script>
-<script src="./JS/raiseButtons.js"></script>
+<!-- <script src="./JS/raiseButtons.js"></script> -->
 <script src="./JS/blueBird.js"></script>
        
 <noscript>Sorry, your browser does not support JavaScript!</noscript>
