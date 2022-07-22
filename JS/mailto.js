@@ -16,7 +16,7 @@ function getDatas()
 
     
 
-    let datasArray =["C1_30_1_manual", C1_30_1_manual.value, 
+    let datasArray =["C1_30_1_manual",C1_30_1_manual.value, 
     "C1_30_1_pneumatik",C1_30_1_pneumatik.value,
     "C2_30_2_manual",C2_30_2_manual.value,
     "C2_30_2_pneumatik",C2_30_2_pneumatik.value,
