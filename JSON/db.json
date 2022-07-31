@@ -1,0 +1,69 @@
+{
+    "posts": 
+    [
+      { "id": 1, "title": "A new app in town", "author": "GreenDev" }
+    ],
+    "comments": 
+    [
+      { "id": 1, "body": "Enjoy this app", "postId": 1 }
+    ],
+    "profile": { "author": "GreenDev" },
+    "datas":
+    [
+        {
+            "id":1, "date": 1452022, 
+            "values":
+            {
+            "C1_30_1_manual": "", 
+            "C1_30_1_pneumatik":"",
+            "C2_30_2_manual":"",
+            "C2_30_2_pneumatik":"",
+            "C3_20_manual":"",
+            "C3_20_electronik":"",
+            "C4_60_pneumatik":"",
+            "C4_60_electronik":"",
+            "C5_V_40_pneumatik":""
+            },
+        "user":"toto"},
+        {
+            "id":2, "date": 1662022, "values":
+            {
+            "C1_30_1_manual": "", 
+            "C1_30_1_pneumatik":"",
+            "C2_30_2_manual":"",
+            "C2_30_2_pneumatik":"",
+            "C3_20_manual":"",
+            "C3_20_electronik":"",
+            "C4_60_pneumatik":"",
+            "C4_60_electronik":"",
+            "C5_V_40_pneumatik":""
+        },
+        "user":"toto"},
+        {"id":3, "date": 2072022, "values":
+            {
+            "C1_30_1_manual": "", 
+            "C1_30_1_pneumatik":"",
+            "C2_30_2_manual":"",
+            "C2_30_2_pneumatik":"",
+            "C3_20_manual":"",
+            "C3_20_electronik":"",
+            "C4_60_pneumatik":"",
+            "C4_60_electronik":"",
+            "C5_V_40_pneumatik":""
+        },
+        "user":"toto"},
+        {"id":4, "date": 1282022, "values":
+            {
+            "C1_30_1_manual": "", 
+            "C1_30_1_pneumatik":"",
+            "C2_30_2_manual":"",
+            "C2_30_2_pneumatik":"",
+            "C3_20_manual":"",
+            "C3_20_electronik":"",
+            "C4_60_pneumatik":"",
+            "C4_60_electronik":"",
+            "C5_V_40_pneumatik":""
+        },
+        "user":"toto"}
+    ]
+  }

@@ -3,146 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta description="" content=""/>
+    <meta description="" content="Assistant D'aide En Ligne pour Data Base">
     <meta name="author" content="GreenDev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./CSS/alt.css"> -->
 
     <title>@deline-DB</title>
 </head>
-<body>
+    <body>
     
-<div class="header">
-    <div class="title-area">
-        <H1 id="app-title">@deline-DB&nbsp;<small>v 1.3.0</small></H1>
+<div class="container">
+
+    <div class="header">
+        <div class="title-area ">
+            <H1 id="app-title">@deline-DB&nbsp;<small>v 1.4.0</small></H1>
+        </div>
     </div>
-</div>
 
-<!-- Desactive dans cette version -->
-<!-- <div class="row">
+    <!-- For future functionnalities -->
 
-    <div class="fiveButtonsArea" id="fiveButtonsArea">
+    <!-- <div class="btn_helpArea">
+        <button class="btn_help">Help</button>
+    </div> -->
+
+    <!-- <div class="fiveButtonsArea" id="fiveButtonsArea">
         <button id="toC1">C1_30_1</button>
         <button id="toC2">C2_30_2</button>
         <button id="toC3">C3_20</button>
         <button id="toC4">C4_60</button>
         <button id="toC5">V</button>
-    </div>
-    
-</div> -->
+    </div> -->
+
+    <div class="C1_30_1">
         
-<div class="row">
-       
-    <div class="container">
-        <div class="C1_30_1 col col-6 col-s-6">
+        <div>
             <h3>C1_30_1</h3>
-            
-            <div>
+        </div>
+        
+        <div>
             <label for="C1_30_1_manual">Manuel</label>
-            <input type="number" step="0.1" id="C1_30_1_manual" class="input"/>
-            </div>
+            <input type="number" step="0.1" id="C1_30_1_manual" class="input" required/>
+        </div>
 
-            <div>
+        <div>
             <label for="C1_30_1_pneumatik">Pneumatique</label>
-            <input type="number" id="C1_30_1_pneumatik" step="0.5" class="input"/>
-            </div>
+            <input type="number" id="C1_30_1_pneumatik" step="0.5" class="input" required/>
+        </div>
 
-            <div>
+        <div>
             <label for="C1_30_1_electronik">Electronique</label>
             <input type="number" id="C1_30_1_electronik" disabled/>
-            </div>
         </div>
-    
-        <div class="C2_30_2 col col-6 col-s-6">
-            <h3>C2_30_2</h3>
-             
-            <div>
-            <label for="C2_30_2_manual">Manuel</label>
-            <input type="number" step="0.1" id="C2_30_2_manual" class="input"/>
-            </div>
-
-            <div>    
-            <label for="C2_30_2_pneumatik">Pneumatique</label>
-            <input type="number" id="C2_30_2_pneumatik" step="0.5" class="input"/>
-            </div>
-
-            <div>
-            <label for="C2_30_2_electronik">Electronique</label>
-            <input type="number" id="C2_30_2_electronik" disabled/>
-            </div>
-        </div>
-
-        <div class="C3-20 col col-6 col-s-6">
-            <h3>C3_20</h3>
-
-            <div>
-            <label for="C3_20_manual">Manuel</label>
-            <input type="number" step="0.1" id="C3_20_manual" class="input"/>
-            </div>
-
-            <div>
-            <label for="C3_20_pneumatik">Pneumatique</label>
-            <input type="number" id="C3_20_pneumatik" step="0.5" disabled/>
-            </div>
-
-            <div>
-            <label for="C3_20_electronik">Electronique</label>
-            <input type="number" id="C3_20_electronik" class="input"/>
-            </div>
-        </div>
-
-        <div class="C4_60 col col-6 col-s-6">
-            <h3>C4_60</h3>
-
-            <div>
-            <label for="C4_60_manual">Manuel</label>
-            <input type="number" step="0.1" id="C1_30_1_manual" class="input" disabled/>
-            </div>
-
-            <div>
-            <label for="C4_60_pneumatik">Pneumatique</label>
-            <input type="number" id="C4_60_pneumatik" step="0.5" class="input"/>
-            </div>  
-
-            <div>
-            <label for="C4_60_electronik">Electronique</label>
-            <input type="number" id="C4_60_electronik"/>
-            </div>
-        </div>
-
-        <div class="C5_V_40 col col-6 col-s-6">
-            <h3>C5_V_40</h3>
-
-            <div>
-            <label for="C5_V_40_manual">Manuel</label>
-            <input type="number" step="0.1" id="C5_V_40_manual" class="input" disabled/>
-            </div>
-
-            <div>
-            <label for="C5_V_40_pneumatik">Pneumatique</label>
-            <input type="number" id="C5_V_40_pneumatik" step="0.5" class="input"/>
-            </div>
-
-            <div>
-            <label for="C5_V_40_electronik">Electronique</label>
-            <input type="text" id="C5_V_40_electronik" class="input"/>
-            </div>
-        </div>
-    
     </div>
         
-</div>
+    <div class="C2_30_2">
+        <div>
+            <h3>C2_30_2</h3>
+        </div>
+        
+        <div>
+            <label for="C2_30_2_manual">Manuel</label>
+            <input type="number" step="0.1" id="C2_30_2_manual" class="input" required/>
+        </div>
 
-<div class="row">
+        <div>    
+            <label for="C2_30_2_pneumatik">Pneumatique</label>
+            <input type="number" id="C2_30_2_pneumatik" step="0.5" class="input" required/>
+        </div>
 
-    <div class="btn_area col-12">
-        <input type="submit" id="btn_send" value="Envoyer"></button>
-        <input type="reset" id="btn_reset" value="Reset"></button>
-   </div>
+        <div>
+            <label for="C2_30_2_electronik">Electronique</label>
+            <input type="number" id="C2_30_2_electronik" disabled/>
+        </div>
+    </div>
     
+    <div class="C3-20">
+        <div>
+            <h3>C3_20</h3>
+        </div>
+        
+        <div>
+            <label for="C3_20_manual">Manuel</label>
+            <input type="number" step="0.1" id="C3_20_manual" class="input" required/>
+        </div>
+
+        <div>
+            <label for="C3_20_pneumatik">Pneumatique</label>
+            <input type="number" id="C3_20_pneumatik" step="0.5" disabled/>
+        </div>
+
+        <div>
+            <label for="C3_20_electronik">Electronique</label>
+            <input type="number" id="C3_20_electronik" class="input" required/>
+        </div>
+    </div>
+    
+    <div class="C4_60">
+        <div>
+            <h3>C4_60</h3>
+        </div>  
+
+        <div>
+            <label for="C4_60_manual">Manuel</label>
+            <input type="number" step="0.1" id="C1_30_1_manual" disabled/>
+        </div>
+
+        <div>
+            <label for="C4_60_pneumatik">Pneumatique</label>
+            <input type="number" id="C4_60_pneumatik" step="0.5" class="input" required/>
+        </div>  
+
+        <div>
+            <label for="C4_60_electronik">Electronique</label>
+            <input type="number" id="C4_60_electronik" class="input" required/>
+        </div>
+    </div>
+    
+    <div class="C5_V_40">
+        <div>
+            <h3>C5_V_40</h3>
+        </div>
+        <div class="box">
+            <label for="C5_V_40_manual">Manuel</label>
+            <input type="number" step="0.1" id="C5_V_40_manual" disabled/>
+        </div>
+
+        <div>
+            <label for="C5_V_40_pneumatik">Pneumatique</label>
+            <input type="number" id="C5_V_40_pneumatik" step="0.5" class="input" required/>
+        </div>
+
+        <div class="v">
+            <label for="C5_V_40_electronik">Electronique</label>
+            <input type="text" id="C5_V_40_electronik" class="input" required/>
+        </div>
+    </div>
+
+    <div class="btn_area">
+        <input type="submit" id="btn_send" value="Envoyer"/>
+        <input type="reset" id="btn_reset" value="Reset"/>
+
+        <!-- For future functionnalities -->
+        <!-- <input type="button" id="btn_log" value="Log"/> -->
+    </div>
+
+    <!-- For future functionnalities -->
+    <!-- <div class="log">
+        <div id="message"></div>
+        <div id="datasArea"></div>
+    </div> -->
+
+    <div class="footer">
+        <div class="infos-area ">
+            <a href="https://github.com/7Dan2/Adeline-DB" target="_blank">Participer</a>
+            <p>{@GreenDev 2022}</p>
+        </div>
+    </div>
+            
 </div>
-   
     
 <!-- SCRIPTS -->
 <script src="./JS/mailto.js"></script>
@@ -150,6 +170,7 @@
 <script src="./JS/checkEmptyFields.js"></script>
 <!-- <script src="./JS/raiseButtons.js"></script> -->
 <script src="./JS/blueBird.js"></script>
+<!-- <script src="./JS/displayRecordedDatas.js"></script> -->
        
 <noscript>Sorry, your browser does not support JavaScript!</noscript>
 
