@@ -18,7 +18,8 @@ function getDatas()
     //     "user":C5_V_40_electronik.value
     // }
 
-    let datasArray = ["C1_30_1_manual :",C1_30_1_manual.value, 
+    let datasArray = [
+    "C1_30_1_manual :",C1_30_1_manual.value, 
     "C1_30_1_pneumatik :",C1_30_1_pneumatik.value,
     "C2_30_2_manual :",C2_30_2_manual.value,
     "C2_30_2_pneumatik :",C2_30_2_pneumatik.value,
@@ -40,7 +41,7 @@ function getDatas()
         uri += encodeURIComponent(subject);
         uri += "&body=";
         uri += encodeURIComponent(datasArray);
-        window.open(uri);
+        //window.open(uri);
 
-        // console.log (datas);
+        console.log (datasArray);
 }              

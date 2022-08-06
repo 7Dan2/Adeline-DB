@@ -49,9 +49,9 @@
     position: sticky;
     top: 10px;
     height: 100px;
-} */
+}
 
-/* div.fiveButtonsArea > button
+div.fiveButtonsArea > button
 {
     height: 2rem;
 } */
@@ -71,8 +71,6 @@ html
 
 .header
 {
-    grid-row: 1;
-    grid-column: 1 / 5;
     background-color: rgb(210, 161, 140);
     color: antiquewhite;
     border-radius: 3px;
@@ -134,26 +132,86 @@ label
 /* N */
 
 /* V */
-/* .V
+
+@media only screen and (max-width: 300px)
 {
-
-} */
-
-
-@media only screen and (min-width: 500px)
-{
-    .fiveButtonsArea
+    /* .fiveButtonsArea
     {
         grid-row: 1 ;
         grid-column:  1 ;
-        /* position: relative;
-        display: none; */
+        position: relative;
+        display: none; 
     }
+    */
+    .btn_area
+    {
+        grid-row: 7;
+        grid-column: 1;
+    }
+
+    .header
+    {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .btn_area > #btn_log
+    {
+        display: none;
+    }
+
+    .footer
+    {
+        grid-row: 8;
+        grid-column: 1;
+    }
+
+    .C1_30_1
+    {
+        grid-row: 2 / 3;
+        grid-column: 1;
+    }
+
+    .C2_30_2
+    {
+        grid-row: 3 / 4;
+        grid-column: 1;
+    }
+
+    .C3-20
+    {
+        grid-row: 4 / 5;
+        grid-column: 1;
+    }
+
+    .C4_60
+    {
+        grid-row: 5 / 6;
+        grid-column: 1;
+    }
+
+    .C5_V_40
+    {
+        grid-row: 6 / 7;
+        grid-column: 1;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
 
     .btn_area
     {
-        grid-row: 7 / 8;
-        grid-column: 1;
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+    }
+
+    .header
+    {
+        grid-row: 1;
+        grid-column: 1 / 5;
     }
 
     .log, #btn_log
@@ -163,88 +221,10 @@ label
 
     .footer
     {
-        grid-row: 9;
-        grid-column: 1;
-    }
-
-    .C1_30_1
-    {
-        grid-row: 2 / 3;
-        grid-column: 1;
-    }
-
-    .C2_30_2
-    {
-        grid-row: 3 / 4;
-        grid-column: 1;
-    }
-
-    .C3-20
-    {
-        grid-row: 4 / 5;
-        grid-column: 1;
-    }
-
-    .C4_60
-    {
-        grid-row: 5 / 6;
-        grid-column: 1;
-    }
-
-    .C5_V_40
-    {
-        grid-row: 6 / 7;
-        grid-column: 1;
-    }
-
-}
-
-@media only screen and (max-width: 600px)
-{
-
-    .log, #btn_log
-    {
-        display: none;
-    }
-
-    .C1_30_1
-    {
-        grid-row: 2 / 3;
-        grid-column:  1;
-    }
-
-    .C2_30_2
-    {
-        grid-row: 3 / 4;
-        grid-column: 1;
-    }
-
-    .C3-20
-    {
-        grid-row: 4 / 5;
-        grid-column: 1;
-    }
-
-    .C4_60
-    {
-        grid-row: 5 / 6;
-        grid-column: 1;
-    }
-
-    .C5_V_40
-    {
-        grid-row: 6 / 7;
-        grid-column: 1;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
-{
-
-    .log, #btn_log
-    {
-        display: none;
+        grid-row: 8;
+        grid-column: 1 / 5;
+        background-color: rgb(210, 161, 140);
+        border-radius: 3px;
     }
 
     .C1_30_1
@@ -276,15 +256,28 @@ label
         grid-row: 4 / 5;
         grid-column: 1 / 2;
     }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px)
 {
+    .btn_area
+    {
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+    }
+
     .log, #btn_log
     {
         display: none;
+    }
+
+    .footer
+    {
+        grid-row: 8;
+        grid-column: 1 / 5;
+        background-color: rgb(210, 161, 140);
+        border-radius: 3px;
     }
 
     .C1_30_1
@@ -317,72 +310,3 @@ label
         grid-column: 2 / 3;
     }
 } 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px)
-{
-    .fiveButtonsArea
-    {
-        grid-row: 1;
-        grid-column:  1 / -1;
-        /* position: relative;
-        display: none; */
-    }
-
-    .btn_area
-    {
-        grid-row: 3 / 4;
-        grid-column:  2 / 3;
-    }
-
-    .footer
-    {
-        grid-row: 4 / 5;
-        grid-column:  1 / 5;
-    }
-
-    .log
-    {
-        display: block;
-        grid-row: 3 / 4;
-        grid-column:  3 / 5;
-       
-    }
-
-    #btn_log
-    {
-        display: block; 
-    }
-
-    .C1_30_1
-    {
-        grid-row: 2 / 3;
-        grid-column:  1 / 2;
-    }
-    
-    .C2_30_2
-    {
-        grid-row: 2 / 3;
-        grid-column: 2 / 3;
-    }
-    
-    .C3-20
-    {
-        grid-row: 2 / 3;
-        grid-column: 3 / 4;
-    }
-    
-    .C4_60
-    {
-        grid-row: 2 / 3;
-        grid-column: 4 / 5;
-    }
-    
-    .C5_V_40
-    {
-        grid-row: 3 / 4;
-        grid-column: 1 / 2;
-    }
-       
-    
-  }
